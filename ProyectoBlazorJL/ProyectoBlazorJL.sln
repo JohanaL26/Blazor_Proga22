@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorJL", "BlazorJL\BlazorJL.csproj", "{7B6C812A-F224-4151-972A-964C459425A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{A9015CC8-696E-4B8F-87DF-10B10DCD927C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{94C92CDC-D721-4BDE-98A5-5C3BDD8DDA41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B6C812A-F224-4151-972A-964C459425A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6C812A-F224-4151-972A-964C459425A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6C812A-F224-4151-972A-964C459425A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6C812A-F224-4151-972A-964C459425A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9015CC8-696E-4B8F-87DF-10B10DCD927C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9015CC8-696E-4B8F-87DF-10B10DCD927C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9015CC8-696E-4B8F-87DF-10B10DCD927C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9015CC8-696E-4B8F-87DF-10B10DCD927C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C92CDC-D721-4BDE-98A5-5C3BDD8DDA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C92CDC-D721-4BDE-98A5-5C3BDD8DDA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C92CDC-D721-4BDE-98A5-5C3BDD8DDA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C92CDC-D721-4BDE-98A5-5C3BDD8DDA41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18311031-2977-4E00-A55C-9EAB24704B2F}
+	EndGlobalSection
+EndGlobal
