@@ -40,7 +40,7 @@ public class UsuarioRepositorio : IUsuarioRepositorio
             using MySqlConnection conexion = Conexion();
             await conexion.OpenAsync();
             string sql = "SELECT * FROM usuario;";
-            Lista= await conexion.QueryAsync<Usuario>(sql)
+            Lista = await conexion.QueryAsync<Usuario>(sql);
         }
         catch (Exception ex)
         {
