@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Components;
 using Modelos;
 
-namespace BlazorJL.Pages.Usuarios;
-
-    partial class Usuarios
+namespace BlazorJL.Pages.UsuariosPage
+{
+    partial class ListaUsuarios
     {
         [Inject] private IUsuarioServicio _usuarioServicio { get; set; }
 
@@ -15,15 +15,5 @@ namespace BlazorJL.Pages.Usuarios;
         {
             usuariosLista = await _usuarioServicio.GetLista();
         }
-        
-    //protected async Task OnInitAsync()
-    //{
-    //     usuariosLista = await _usuarioServicio.GetLista();
-    //}
-
-
     }
-
-
-    
-
+}

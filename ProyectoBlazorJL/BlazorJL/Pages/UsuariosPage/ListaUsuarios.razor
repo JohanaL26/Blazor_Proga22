@@ -16,6 +16,8 @@ else
                 <th>Nombre </th>
                 <th>Rol</th>
                 <th>Esta Activo </th>
+                <th> </th>
+
             </tr>
         </thead>
         <tbody>
@@ -29,18 +31,20 @@ else
                         @if (@user.EstaActivo)
                         {
                             <span class="oi oi-circle-check" style="color: green;"></span>
-                            
+
                         }
                         else
                         {
-                           <span class="oi oi-circle-x" style="color: red;"></span>
+                            <span class="oi oi-circle-x" style="color: red;"></span>
                         }
                     </td>
+                    <td>
+                        <a class="btn btn-success" href="@($"/Usuarios/Editar/{user.Codigo}")">Editar</a>
+                    </td>
+
+
                 </tr>
             }
         </tbody>
     </table>
 }
-
-
-
