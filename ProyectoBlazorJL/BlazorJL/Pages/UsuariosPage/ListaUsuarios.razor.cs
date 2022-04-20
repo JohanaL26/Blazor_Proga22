@@ -7,7 +7,6 @@ namespace BlazorJL.Pages.UsuariosPage
     partial class ListaUsuarios
     {
         [Inject] private IUsuarioServicio _usuarioServicio { get; set; }
-
         private IEnumerable<Usuario> usuariosLista { get; set; }
 
 

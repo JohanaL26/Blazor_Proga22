@@ -5,7 +5,7 @@ namespace Modelos;
 
     public class Usuario
     {
-        [Required(ErrorMessage ="El campo Codigo es obligatroio")]
+        [Required(ErrorMessage = "El campo Código es obligatroio")]
             public string Codigo { get; set; }
         [Required(ErrorMessage = "El campo Nombre es obligatroio")]
             public string Nombre { get; set; }

@@ -9,6 +9,7 @@ namespace BlazorJL.Interfaces;
         Task<bool> Eliminar(Usuario usuario);
         Task<IEnumerable<Usuario>> GetLista();
         Task<Usuario> GetPorCodigo(string codigo);
+  
 
 }
 

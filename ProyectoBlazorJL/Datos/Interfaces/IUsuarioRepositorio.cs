@@ -9,6 +9,7 @@ public interface IUsuarioRepositorio
         Task<bool> Eliminar(Usuario usuario);
         Task<IEnumerable<Usuario>>GetLista();
         Task<Usuario> GetPorCodigo(string codigo);
+        Task<bool> ValidaUsuario(Login login);
 
 
     }
